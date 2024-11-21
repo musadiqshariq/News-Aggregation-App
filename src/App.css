@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "segoe";
+  src: url("./assets/fonts/segoe-UI/Segoe UI.ttf");
+}
+.backgroundLinearHeader {
+  background: linear-gradient(
+    114deg,
+    #fef0f0 13.07%,
+    #ffeffd 35.09%,
+    #faf5fe 47.71%,
+    #f6f5ff 52.31%,
+    #eaf2ff 84.48%
+  ) !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: lightgray;
+  border-radius: 6px;
+}
